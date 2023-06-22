@@ -1,9 +1,14 @@
 .lesson {
   background-color: lemonchiffon;
+  text-align: center;
 }
 
-.title {
-  color: darkblue;
+.title, header {
+  color: black;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  background-color: blue;
 }
 
 #email {
@@ -16,4 +21,12 @@
 
 #portfolio {
   background-color: darkorange;
+}
+
+header nav ul li {
+  float: right;
+  display: inline-block;
+  margin-right: 20px;
+  padding-top: 15px;
+
 }
